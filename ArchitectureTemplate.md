@@ -62,9 +62,10 @@ UI Component comprises of Model, View and Controller. This component is based on
 ###4.3 Independent Modules 
 This module is used to specify all the independent classes that can be access across the application and may be re-used across different projects.
 
-1. Constant: This class will contain all the constant values i.e. anything which will not be changing and is used across the app. e.g. baseURL, keyboard height, etc. 
-2. Constant String: This class contains all the constant alert strings, which will never change. 
-3. Utils: A separate class for all the miscellaneous functionalities, which will contains mostly class methods. It may contain the method such as date manipulation, checking time range, etc. 
+1. **Constant**: This class will contain all the constant values i.e. anything which will not be changing and is used across the app. e.g. baseURL, keyboard height, etc. 
+2. **Constant String**: This class contains all the constant alert strings, which will never change. 
+3. **Utils**: A separate class for all the miscellaneous functionalities, which will contains mostly class methods. It may contain the method such as date manipulation, checking time range, etc. 
+
 
 ###4.4 Application Specific Modules
 
